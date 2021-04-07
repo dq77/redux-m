@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
-import './index.less';
+import './index.scss';
 
 @connect(({ products }) => ({
   ...products,
@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component{
     return (
       <div className='normal'>
         <h1 className='title'>dva project</h1>
-        <div className='tips'>To get started, edit <code>src/index.js</code> and save to reload.</div>
+        <div className='tips'>To get started, edit <code>src/pages/index.js</code> and save to reload.</div>
       </div>
     );
   }

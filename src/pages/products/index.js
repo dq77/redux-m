@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'dva';
 import dqPlugin from 'dqplugin'
 import ProductList from '../../components/ProductList';
-import './index.less'
+import './index.scss'
 
 @connect(({ products }) => ({
   ...products,
