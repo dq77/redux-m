@@ -1,7 +1,7 @@
 import dva from 'dva';
 import { createBrowserHistory } from 'history';
 import dqPlugin from 'dqplugin';
-import './index.css';
+import './index.scss';
 
 dqPlugin.remLayout()
 // 1. Initialize
